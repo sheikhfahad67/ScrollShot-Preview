@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ScrollShot – Full-page screenshots, edited and saved in one click</title>
+  <meta name="description" content="ScrollShot is a Chrome extension that captures full web pages by scrolling for you, lets you mark them up, and saves them as PNG, JPG or PDF. Private by design." />
+  <meta property="og:title" content="ScrollShot – Capture, edit & save web pages" />
+  <meta property="og:description" content="Full-page, visible-area and selected-area screenshots with a built-in editor. PNG, JPG and PDF export. No data collected." />
+  <meta property="og:image" content="https://sheikhfahad67.github.io/ScrollShot-Preview/assets/hero.png" />
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="./"><img src="assets/icon-128.png" alt="" /><span>Scroll<span>Shot</span></span></a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="https://github.com/sheikhfahad67/ScrollShot-Preview/issues">Support</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <span class="badge">● Coming soon to the Chrome Web Store</span>
+          <h1>Capture any web page, <em>top to bottom</em></h1>
+          <p class="lead">ScrollShot scrolls the page for you, joins the pieces into one tall image, and lets you mark it up and save it as PNG, JPG or PDF.</p>
+          <div class="pills">
+            <span class="pill">Full page</span>
+            <span class="pill">Visible area</span>
+            <span class="pill">Selected area</span>
+            <span class="pill">PNG · JPG · PDF</span>
+          </div>
+        </div>
+        <img class="shot" src="assets/hero.png" width="1100" height="860" alt="ScrollShot popup showing a finished capture over a sample web page" />
+      </div>
+
+      <section id="features">
+        <h2>Everything from capture to file, in one place</h2>
+        <p class="section-sub">No second app, no upload, no account.</p>
+        <div class="cards">
+          <div class="card">
+            <div class="ico">📸</div>
+            <h3>Capture</h3>
+            <ul>
+              <li><b>Full page</b>: scrolls for you</li>
+              <li><b>Visible area</b>: what you see now</li>
+              <li><b>Selected area</b>: drag a box; the page scrolls as you drag</li>
+              <li>Works on pages that scroll inside a panel or frame</li>
+              <li>Removes sticky headers and scrollbars</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="ico">✏️</div>
+            <h3>Edit</h3>
+            <ul>
+              <li>Crop, pen, arrow, rectangle</li>
+              <li>Highlight and text</li>
+              <li>Blur private details</li>
+              <li>Undo and redo</li>
+              <li>Zoom and auto-scroll on long images</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="ico">💾</div>
+            <h3>Save</h3>
+            <ul>
+              <li><b>PNG</b>: lossless</li>
+              <li><b>JPG</b>: smaller files</li>
+              <li><b>PDF</b>: multi-page A4</li>
+              <li>Copy to the clipboard</li>
+              <li>Download straight from the popup</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="screenshots">
+        <h2>See it in action</h2>
+        <p class="section-sub">A live progress bar while it captures, then a preview you can download, edit or discard.</p>
+        <div class="gallery">
+          <figure>
+            <img class="shot" loading="lazy" src="assets/screenshots/2-result-preview.png" width="1280" height="800" alt="ScrollShot popup showing a finished capture with Download, Edit and New capture buttons" />
+            <figcaption>Preview the result right away</figcaption>
+          </figure>
+          <figure>
+            <img class="shot" loading="lazy" src="assets/screenshots/3-editor.png" width="1280" height="800" alt="ScrollShot editor with a highlight, a box, an arrow, a text note and blurred text" />
+            <figcaption>Mark it up before you save</figcaption>
+          </figure>
+          <figure style="grid-column: 1 / -1; max-width: 640px; justify-self: center">
+            <img class="shot" loading="lazy" src="assets/screenshots/4-download-formats.png" width="1280" height="800" alt="ScrollShot Download button with PNG, JPG and PDF choices" />
+            <figcaption>Pick PNG, JPG or PDF and download</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="shortcuts">
+        <h2>Keyboard shortcuts</h2>
+        <p class="section-sub">Start a capture without opening the popup. You can change these in <code>chrome://extensions/shortcuts</code>.</p>
+        <table>
+          <thead><tr><th>Shortcut</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></td><td>Capture the full page</td></tr>
+            <tr><td><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></td><td>Capture a selected area (press <kbd>Esc</kbd> to cancel)</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="privacy">
+        <div class="privacy">
+          <div class="lock">🔒</div>
+          <div>
+            <h2>Private by design</h2>
+            <p>Everything happens on your computer. ScrollShot does not collect, store or send your screenshots or browsing data. It makes no network requests and has no account, ads or tracking. <a href="privacy-policy.html">Read the privacy policy</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2>Questions</h2>
+        <p class="section-sub"></p>
+        <details>
+          <summary>Why does ScrollShot ask to access all sites?</summary>
+          <p>Many pages, such as course players and web apps, keep their long content inside an embedded frame from another site. To scroll that frame, ScrollShot needs access to it. The access is used only after you start a capture, and nothing is read, stored or sent anywhere.</p>
+        </details>
+        <details>
+          <summary>Which pages can't be captured?</summary>
+          <p>Chrome does not let any extension run on <code>chrome://</code> pages or on the Chrome Web Store. ScrollShot can't capture those. For them, use Chrome's own tool: open DevTools, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and choose “Capture full size screenshot”.</p>
+        </details>
+        <details>
+          <summary>How long a page can it capture?</summary>
+          <p>Very long pages work. If an image would be taller than about 16,000 pixels, ScrollShot scales it down slightly to fit the limit Chrome sets for images.</p>
+        </details>
+        <details>
+          <summary>Where do I report a problem or ask for a feature?</summary>
+          <p>Open an issue on the <a href="https://github.com/sheikhfahad67/ScrollShot-Preview/issues">support page</a>. If you can, tell us the website address and what you expected to see.</p>
+        </details>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 ScrollShot</span>
+      <nav>
+        <a href="privacy-policy.html">Privacy policy</a>
+        <a href="https://github.com/sheikhfahad67/ScrollShot-Preview/issues">Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
