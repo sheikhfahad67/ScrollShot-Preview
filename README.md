@@ -4,13 +4,13 @@
 
 **Capture a whole web page in one click, mark it up, and save it as PNG, JPG or PDF.**
 
-[Website](https://sheikhfahad67.github.io/ScrollShot-Preview/) · [Privacy policy](https://sheikhfahad67.github.io/ScrollShot-Preview/privacy-policy.html) · [Support](https://github.com/sheikhfahad67/ScrollShot-Preview/issues)
+[Chrome Web Store](https://chromewebstore.google.com/detail/scrollshot/fbbkdekmndboaemgjfhlbnhngbbjngjg) · [Website](https://sheikhfahad67.github.io/ScrollShot-Preview/) · [Privacy policy](https://sheikhfahad67.github.io/ScrollShot-Preview/privacy-policy.html) · [Support](https://github.com/sheikhfahad67/ScrollShot-Preview/issues)
 
 </div>
 
 ---
 
-This repository is the **public home of ScrollShot**: the website, the privacy policy, and the support page. ScrollShot is a Chrome extension; it is coming soon to the Chrome Web Store.
+This repository is the **public home of ScrollShot**: the website, the privacy policy, and the support page. ScrollShot is a Chrome extension. **[Add it to Chrome from the Chrome Web Store](https://chromewebstore.google.com/detail/scrollshot/fbbkdekmndboaemgjfhlbnhngbbjngjg)**.
 
 ## What it does
 
