@@ -131,11 +131,11 @@
         </details>
         <details>
           <summary>Which pages can't be captured?</summary>
-          <p>Chrome does not let any extension run on <code>chrome://</code> pages or on the Chrome Web Store. ScrollShot can't capture those. For them, use Chrome's own tool: open DevTools, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and choose “Capture full size screenshot”.</p>
+          <p>Chrome does not let any extension run on <code>chrome://</code> pages or on the Chrome Web Store. ScrollShot can't capture those, so its buttons are greyed out there with a short message. <b>Google Sheets</b> is supported only with <b>Visible area</b>, because its grid can't be scrolled like a normal web page. For pages ScrollShot can't capture, use Chrome's own tool: open DevTools, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and choose “Capture full size screenshot”.</p>
         </details>
         <details>
           <summary>How long a page can it capture?</summary>
-          <p>Very long pages work. If an image would be taller than about 16,000 pixels, ScrollShot scales it down slightly to fit the limit Chrome sets for images.</p>
+          <p>Long pages work, up to about 40 screens. If a page is longer, ScrollShot captures the first 40 screens and tells you. If an image would be taller than about 16,000 pixels, it is scaled down slightly to fit the limit Chrome sets for images.</p>
         </details>
         <details>
           <summary>Where do I report a problem or ask for a feature?</summary>
